@@ -30,6 +30,17 @@ npm run dev
 Then open http://127.0.0.1:5173. For a production bundle: `npm run build` (output in `dist/`, plain
 static files you can host anywhere) and `npm run preview` to try it.
 
+## Publishing an update
+
+- **Play online:** push to `main`. GitHub Pages rebuilds the site automatically (`.github/workflows/pages.yml`).
+- **Download ZIP:** run `npm run package` to build `slipstreet-game.zip`. That is the game in a `game/` folder, plus the launchers and `HOW TO PLAY.txt` from `release/`. Then publish it as a new release:
+
+  ```bash
+  gh release create v1.1.0 slipstreet-game.zip --title "Slipstreet v1.1.0" --notes "What's new"
+  ```
+
+  The download link in this README always points to the newest release.
+
 ## Controls
 
 | Key | Action |

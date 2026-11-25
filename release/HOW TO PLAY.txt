@@ -1,0 +1,36 @@
+SLIPSTREET - Endless City Drift
+================================
+
+Start the game
+--------------
+  Mac:      double-click "Play (Mac).command"
+            (first time: if macOS says it can't be opened, right-click it, choose Open, then Open again)
+  Windows:  double-click "Play (Windows).bat"
+            (if Windows SmartScreen appears: More info -> Run anyway)
+  Linux:    run "Play (Linux).sh"
+
+The game opens in your web browser. Keep the small window that appears open while you play;
+close it to stop. These launchers need Python 3 (built into most Macs and Linux; on Windows
+get it from https://www.python.org/downloads/).
+
+Why not just open index.html? Browsers block web games opened straight from a file, so the
+launcher runs a tiny local server on your own computer. Nothing is sent anywhere.
+
+Already have Node.js? You can also run:  npx serve game   and open the address it prints.
+
+Controls
+--------
+  W / Up        throttle            S / Down     brake, reverse
+  A D / arrows  steer               SPACE        handbrake
+  E / Q         shift up / down     X            automatic / manual gearbox
+  M             2WD drift / 4WD     K            HYPER mode (500 km/h)
+  C             camera              B            look back
+  F             drift guide bar     L            Drift School (on the menu)
+  G             Drift Attack        R            reset car
+  T             time of day         V / N        paint / underglow
+  P / ESC       pause and settings
+
+Gamepad and touch screens work too.
+
+Source code, updates and credits: https://github.com/DeveloperDoodles/slipstreet
+All sounds are public domain (CC0); see CREDITS.md in the source.

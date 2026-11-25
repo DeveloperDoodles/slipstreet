@@ -2,13 +2,14 @@
   "name": "slipstreet",
   "private": true,
   "version": "1.0.0",
-  "description": "SLIPSTREET — an endless-city 3D drift game. BMW M5 Competition, procedural city, custom drift physics.",
+  "description": "SLIPSTREET \u2014 an endless-city 3D drift game. BMW M5 Competition, procedural city, custom drift physics.",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "sim": "node tools/simtest.mjs"
+    "sim": "node tools/simtest.mjs",
+    "package": "vite build && node tools/package.mjs"
   },
   "dependencies": {
     "three": "0.170.0"
