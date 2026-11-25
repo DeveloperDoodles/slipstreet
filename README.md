@@ -4,9 +4,19 @@ A 3D open-world drift game that runs in the browser. You drive a BMW M5 Competit
 neon city that repeats forever in every direction, chaining slides for points.
 
 The car, the city and the textures are generated in code at start-up. The engine is a synthesised V8 voice; the other sounds are real public-domain recordings (drift tyres, a BMW M6 cold start, pops and crashes) from `public/audio`, plus synthesised layers.
-There are no model, image or audio files.
+There are no model or image files.
 
-## Run it
+## Download and play
+
+**[Download Slipstreet (ZIP, about 3.4 MB)](https://github.com/DeveloperDoodles/slipstreet/releases/latest/download/slipstreet-game.zip)**, unzip it, then:
+
+- **Mac:** double-click `Play (Mac).command`. The first time, if macOS says it can't be opened, right-click it, choose **Open**, then **Open** again.
+- **Windows:** double-click `Play (Windows).bat`. If SmartScreen appears, choose **More info**, then **Run anyway**.
+- **Linux:** run `Play (Linux).sh`.
+
+The game opens in your browser. Keep the small window that appears open while you play. The launchers need Python 3, which is built into most Macs and Linux systems; on Windows, get it from [python.org](https://www.python.org/downloads/). Browsers won't run a web game opened straight from a file, so the launcher serves it from your own computer. Nothing is sent anywhere. All releases are listed on the [releases page](https://github.com/DeveloperDoodles/slipstreet/releases).
+
+## Run it from the source
 
 ```bash
 npm install
