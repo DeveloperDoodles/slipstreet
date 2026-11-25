@@ -6,6 +6,10 @@ neon city that repeats forever in every direction, chaining slides for points.
 The car, the city and the textures are generated in code at start-up. The engine is a synthesised V8 voice; the other sounds are real public-domain recordings (drift tyres, a BMW M6 cold start, pops and crashes) from `public/audio`, plus synthesised layers.
 There are no model or image files.
 
+## Play online
+
+**[Play Slipstreet in your browser](https://developerdoodles.github.io/slipstreet/)**: no download or install needed. It runs best in an up-to-date Chrome, Edge, Firefox or Safari on a computer with a keyboard or gamepad; touch controls work on phones and tablets. The site is rebuilt from `main` on every push (`.github/workflows/pages.yml`).
+
 ## Download and play
 
 **[Download Slipstreet (ZIP, about 3.4 MB)](https://github.com/DeveloperDoodles/slipstreet/releases/latest/download/slipstreet-game.zip)**, unzip it, then:
